@@ -1,5 +1,5 @@
 "use client";
-import WorkFlowBuilder from "@/components/workflow/WorkFlowBuilder";
+import WorkFlowBuilder from "@/components/workflow/WorkflowBuilder";
 
 export default function Home() {
   return (
