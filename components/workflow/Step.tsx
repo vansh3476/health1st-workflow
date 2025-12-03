@@ -26,6 +26,7 @@ const iconMap: Record<string, string> = {
   VERA: "💼",
   DASH: "📅",
   GUARDIAN: "🛡️",
+  ADMIN:"⚙️"
 };
 
 export function Step({
@@ -47,7 +48,7 @@ export function Step({
         className={cn(
           "relative w-56 min-h-40 rounded-lg border-2 border-gray-300 bg-white",
           "flex flex-col items-center justify-center p-4 gap-3 transition-all",
-          isDraggingOver && "border-health-agent bg-blue-50 border-health-agent"
+          isDraggingOver && "border-health-agent bg-blue-50"
         )}
       >
         <div className="flex w-full text-center mb-2">

@@ -36,6 +36,12 @@ const AGENTS: Agent[] = [
     icon: "🛡️",
     description: "Compliance & Safety Checker",
   },
+  {
+    id:'ADMIN',
+    name:'ADMIN',
+    icon:"⚙️",
+    description:"admin panel"
+  }
 ];
 
 interface AgentsLibraryProps {
