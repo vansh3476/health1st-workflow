@@ -54,23 +54,6 @@ export default function WorkflowBuilder() {
 
           <StepContainer onNodeSelect={setSelectedNode} />
 
-          {selectedNode && (
-            <ConfigurationPanel
-              node={{
-                id: selectedNode.id,
-                data: {
-                  label: selectedNode.label,
-                  type: "agent",
-                  agentId: selectedNode.agentId,
-                  description: selectedNode.description,
-                },
-                position: { x: 0, y: 0 },
-                type: "agent",
-              }}
-              onClose={() => setSelectedNode(null)}
-              onSave={handleConfigSave}
-            />
-          )}
         </div>
       </div>
     </>
